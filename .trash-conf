@@ -1,11 +1,57 @@
 imports:
-  github.com/Sirupsen/logrus:
-    package: github.com/Sirupsen/logrus
-    version: v0.10.0
+  github.com/BurntSushi/toml:
+    package: github.com/BurntSushi/toml
+    version: v0.1.0
+    update: false
+    options: {}
+  github.com/Masterminds/semver:
+    package: github.com/Masterminds/semver
+    version: v1.3.1
+    update: false
+    options: {}
+  github.com/gobwas/glob:
+    package: github.com/gobwas/glob
+    version: v0.2.2
+    update: false
+    options: {}
+  github.com/golang/glog:
+    package: github.com/golang/glog
+    version: 23def4e6c14b4da8ac2ed8007337bc5eb5007998
+    update: false
+    options: {}
+  github.com/gorilla/mux:
+    package: github.com/gorilla/mux
+    version: v1.6.0
+    update: false
+    options: {}
+  github.com/kubernetes-incubator/service-catalog:
+    package: github.com/kubernetes-incubator/service-catalog
+    version: v0.1.4
+    update: false
+    options: {}
+  github.com/sirupsen/logrus:
+    package: github.com/sirupsen/logrus
+    version: v1.0.4
     update: false
     options: {}
   github.com/urfave/cli:
     package: github.com/urfave/cli
-    version: v1.18.0
+    version: c6af8847eb2b7b297d07c3ede98903e95e680ef9
+    update: false
+    options: {}
+  google.golang.org/grpc:
+    package: google.golang.org/grpc
+    version: v1.2.1
+    update: false
+    options: {}
+  k8s.io/client-go:
+    package: k8s.io/client-go
+    version: v4.0.0
+    update: false
+    options:
+      transitive: true
+  k8s.io/helm:
+    package: k8s.io/helm
+    version: v2.7.2
     update: false
     options: {}

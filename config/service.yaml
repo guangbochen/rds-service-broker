@@ -1,0 +1,34 @@
+name: "mysql"
+id: "3533e2f0-6001-xxxx-9d15-d7c0b90b75b5"
+description: "MySQL engine"
+plans:
+  - name: "default"
+    iD: "b9600ecb-c1c1-4621-b450-a0fa1738e632"
+    description: "MySQL database default plan"
+    free: true
+bindable:       true
+planUpdateable: true
+
+---
+name: "mariadb"
+id: "3533e2f0-6002-xxxx-9d15-d7c0b90b75b5"
+description: "MariaDB engine"
+plans:
+  - name: "default"
+    iD: "b9600ecb-c1c2-4621-b450-a0fa1738e632"
+    description: "MariaDB database default plan"
+    free: true
+bindable:       true
+planUpdateable: true
+
+---
+name: "postgresql"
+id: "3533e2f0-6003-xxxx-9d15-d7c0b90b75b5"
+description: "PostgreSQL engine"
+plans:
+  - name: "default"
+    iD: "b9600ecb-c1c3-4621-b450-a0fa1738e632"
+    description: "PostgreSQL database default plan"
+    free: true
+bindable:       true
+planUpdateable: true

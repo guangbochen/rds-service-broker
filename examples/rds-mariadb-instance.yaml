@@ -1,0 +1,13 @@
+apiVersion: servicecatalog.k8s.io/v1beta1
+kind: ServiceInstance
+metadata:
+  name: rds-mariadb-instance
+  namespace: test-ns
+spec:
+  clusterServiceClassExternalName: mariadb
+  clusterServicePlanExternalName: default
+  parameters:
+    mariadbRootPassword: root
+    mariadbDatabase: dbname
+    persistence:
+      enabled: false
